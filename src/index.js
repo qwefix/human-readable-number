@@ -1,6 +1,5 @@
 module.exports = function toReadable (number) {
-    let objOfReadable={
-        
+    let objOfReadable={        
         1:'one',
         2:'two',
         3:'three',
@@ -28,7 +27,6 @@ module.exports = function toReadable (number) {
         1000:'thousand',
     }
   
-  let resArray =[];
   function stringOfThreeNumbers(str) {
     let resArr=[];
     if(str==0)return 'zero';
